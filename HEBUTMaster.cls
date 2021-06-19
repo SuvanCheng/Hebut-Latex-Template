@@ -68,7 +68,7 @@
     \vspace*{15mm} %插入空白
     {\songti \zihao{2} % 河北工业大学
     \includegraphics[width=0.4\textwidth]{hebut.png} \\
-    [3mm]   \ifsmd  \ziju{0.5} 硕士专业学位论文\else \ziju{0.8} 下一代互联网\fi} \\
+    [3mm]   \ifsmd  \ziju{0.5} 硕士专业学位论文\else \ziju{0.8} 机器学习\fi} \\
     \vspace{2cm}
     {\kaishu \zihao{1}  \@title \par}%
 %    \vspace{4cm}
