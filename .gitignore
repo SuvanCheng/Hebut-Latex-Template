@@ -1,1 +1,12 @@
 .DS_Store
+MasterTemplate.aux
+MasterTemplate.log
+MasterTemplate.out
+MasterTemplate.pdf
+MasterTemplate.synctex.gz
+MasterTemplate.thm
+MasterTemplate.toc
+MasterTemplate.fdb_latexmk
+MasterTemplate.fls
+MasterTemplate.synctex(busy)
+missfont.log

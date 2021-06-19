@@ -58,8 +58,8 @@
  \fancyhead[CO]{\@title}    %L,C,R 是左中右; O,E 是奇偶. 可以自己组合调整.
  \fancyfoot[C]{-\,\thepage\,-} }} 
 
-%%%=== 封面 ===%%%
-\def\maketitle{%
+%===============================================封面=====================================================%
+\def\maketitle{
   \null
   \thispagestyle{empty}%
   %\vspace*{-2cm}
@@ -67,8 +67,8 @@
     \par
     \vspace*{15mm} %插入空白
     {\songti \zihao{2} % 河北工业大学
-    \includegraphics[width=0.4\textwidth]{hebut.png}
-    \\[3mm]   \ifsmd  \ziju{0.5} 硕士专业学位论文\else \ziju{0.8} 下一代互联网\fi}\\
+    \includegraphics[width=0.4\textwidth]{hebut.png} \\
+    [3mm]   \ifsmd  \ziju{0.5} 硕士专业学位论文\else \ziju{0.8} 下一代互联网\fi} \\
     \vspace{2cm}
     {\kaishu \zihao{1}  \@title \par}%
 %    \vspace{4cm}
@@ -105,7 +105,7 @@
   \fi
   }
 
-%------------------------ Abstract & Keywords -------------------------
+%===============================================摘要=====================================================%
 \newcommand\cnabstractname{摘要}
 \newcommand\enabstractname{ABSTRACT}
 \newcommand\cnkeywords[1]{ {\heiti\zihao{-4}\cnkeywordsname: }#1}
